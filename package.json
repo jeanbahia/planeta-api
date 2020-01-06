@@ -1,0 +1,24 @@
+{
+  "name": "planetas-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./test/index.js --exit",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Jean Bahia",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "chai-json-pattern": "1.1.0"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "express": "4.17.1",
+    "mocha": "7.0.0",
+    "mongoose": "5.8.4"
+  }
+}
